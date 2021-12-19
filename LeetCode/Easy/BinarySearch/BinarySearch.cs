@@ -1,4 +1,4 @@
-namespace LeetCode.Easy {
+namespace LeetCode.Easy.BinarySearch {
 	public class BinarySearch {
 		public static int Search(int[] nums, int target) {
 			if (nums.Length == 0) {
