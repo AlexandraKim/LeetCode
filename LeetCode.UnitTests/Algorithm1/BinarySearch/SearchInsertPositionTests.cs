@@ -1,8 +1,8 @@
 using FluentAssertions;
-using LeetCode.Easy.BinarySearch;
+using LeetCode.Algorithm1.BinarySearch;
 using NUnit.Framework;
 
-namespace LeetCode.UnitTests.Easy.BinarySearch
+namespace LeetCode.UnitTests.Algorithm1.BinarySearch
 {
     public class SearchInsertPositionTests
     {

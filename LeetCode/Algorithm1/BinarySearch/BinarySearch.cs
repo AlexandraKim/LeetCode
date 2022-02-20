@@ -1,6 +1,6 @@
-namespace LeetCode.Easy.BinarySearch {
-	public static class SearchInsertPosition {
-		public static int SearchInsert(int[] nums, int target) {
+namespace LeetCode.Algorithm1.BinarySearch {
+	public static class BinarySearch {
+		public static int Search(int[] nums, int target) {
 			if (nums.Length == 0) {
 				return -1;
 			}
@@ -22,16 +22,7 @@ namespace LeetCode.Easy.BinarySearch {
 			if (nums[end] == target) {
 				return end;
 			}
-
-			if (nums[end] < target) {
-				return end + 1;
-			}
-
-			if (nums[mid] < target) {
-				return mid + 1;
-			}
-			
-			return mid;
+			return -1;
 		}
 
 		private static int GetMidIndex(int start, int end) {

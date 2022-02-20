@@ -1,8 +1,8 @@
 using FluentAssertions;
-using LeetCode.Easy.BinarySearch;
+using LeetCode.Algorithm1.BinarySearch;
 using NUnit.Framework;
 
-namespace LeetCode.UnitTests.Easy.BinarySearch {
+namespace LeetCode.UnitTests.Algorithm1.BinarySearch {
 	public class FirstBadVersionTests {
 		[TestCase(5, 4)]
 		[TestCase(2, 2)]

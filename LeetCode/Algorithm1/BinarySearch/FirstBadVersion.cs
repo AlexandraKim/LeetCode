@@ -1,4 +1,4 @@
-namespace LeetCode.Easy.BinarySearch {
+namespace LeetCode.Algorithm1.BinarySearch {
 	public static class FirstBadVersion {
 		public static int Value { get; set; }
 
