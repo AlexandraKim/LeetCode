@@ -18,5 +18,6 @@
     &lt;TestId&gt;NUnit3x::E6746DE0-2E01-46DB-BA0C-ADB568994597::net5.0::LeetCode.UnitTests.Algorithm1.TwoPointers.MoveZeroesTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::E6746DE0-2E01-46DB-BA0C-ADB568994597::net5.0::LeetCode.UnitTests.Algorithm1.TwoPointers.TwoSumInputArrayIsSortedTests.Test&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::E6746DE0-2E01-46DB-BA0C-ADB568994597::net5.0::LeetCode.UnitTests.Algorithm1.TwoPointers.ReverseStringTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E6746DE0-2E01-46DB-BA0C-ADB568994597::net5.0::LeetCode.UnitTests.Algorithm1.TwoPointers.ReverseWordsTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
