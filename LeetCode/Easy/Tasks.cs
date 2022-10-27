@@ -4,6 +4,20 @@ using System.Linq;
 
 namespace LeetCode.Easy {
 	public class Tasks {
+		public bool ContainsDuplicate(int[] nums) {
+			var dict = new Dictionary<int, int>();
+			for(int i = 0; i < nums.Length; i ++) {
+				if (dict.ContainsKey(nums[i])) {
+					dict[i]++;
+				}else{
+					dict.Add(dict[i], 0);
+				}
+			}
+
+			return dict.Values.Any(x => x > 0);
+		}
+		
+		
 		public static int[] TwoSum(int[] nums, int target) {
 			var hashmap = new Dictionary<int, int>();
 			for (var i = 0; i < nums.Length; i++) {
@@ -78,5 +92,6 @@ namespace LeetCode.Easy {
 		// public static int ClimbStairs(int n) {
 		// 	return n! / 2 * (n - 2)!;
 		// }
+		
 	}
 }
