@@ -21,7 +21,7 @@ namespace LeetCode.UnitTests.Algorithm1.BfsAndDfs {
             
             var sut = new PopulatingNextRightPointersInEachNode();
 
-            sut.Connect(node1).Should().Be(expectedNode1);
+            sut.Connect(node1).Should().BeEquivalentTo(expectedNode1);
         }
         
         [Test]

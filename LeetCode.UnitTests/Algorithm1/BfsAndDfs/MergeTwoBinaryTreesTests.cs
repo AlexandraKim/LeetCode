@@ -19,7 +19,7 @@ namespace LeetCode.UnitTests.Algorithm1.BfsAndDfs {
             var expectedResultNode5 = new TreeNode(5, null, new TreeNode(7));
             var expectedResult = new TreeNode(3, expectedResultNode4, expectedResultNode5);
             
-            MergeTwoBinaryTrees.MergeTrees(root1, root2).Should().Be(expectedResult);
+            MergeTwoBinaryTrees.MergeTrees(root1, root2).Should().BeEquivalentTo(expectedResult);
         }
         
         [Test]
