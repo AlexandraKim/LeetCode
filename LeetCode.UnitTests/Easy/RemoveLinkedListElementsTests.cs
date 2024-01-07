@@ -7,19 +7,19 @@ namespace LeetCode.UnitTests.Easy {
     public class RemoveLinkedListElementsTests {
         [Test]
         public void Test() {
-            var node7 = new RemoveLinkedListElements.ListNode(6);
-            var node6 = new RemoveLinkedListElements.ListNode(5, node7);
-            var node5 = new RemoveLinkedListElements.ListNode(4, node6);
-            var node4 = new RemoveLinkedListElements.ListNode(3, node5);
-            var node3 = new RemoveLinkedListElements.ListNode(6, node4);
-            var node2 = new RemoveLinkedListElements.ListNode(2, node3);
-            var node1 = new RemoveLinkedListElements.ListNode(1, node2);
+            var node7 = new ListNode(6);
+            var node6 = new ListNode(5, node7);
+            var node5 = new ListNode(4, node6);
+            var node4 = new ListNode(3, node5);
+            var node3 = new ListNode(6, node4);
+            var node2 = new ListNode(2, node3);
+            var node1 = new ListNode(1, node2);
             
-            var expectedNode6 = new RemoveLinkedListElements.ListNode(5);
-            var expectedNode5 = new RemoveLinkedListElements.ListNode(4, expectedNode6);
-            var expectedNode4 = new RemoveLinkedListElements.ListNode(3, expectedNode5);
-            var expectedNode2 = new RemoveLinkedListElements.ListNode(2, expectedNode4);
-            var expectedNode1 = new RemoveLinkedListElements.ListNode(1, expectedNode2);
+            var expectedNode6 = new ListNode(5);
+            var expectedNode5 = new ListNode(4, expectedNode6);
+            var expectedNode4 = new ListNode(3, expectedNode5);
+            var expectedNode2 = new ListNode(2, expectedNode4);
+            var expectedNode1 = new ListNode(1, expectedNode2);
             
             var sut = new RemoveLinkedListElements();
 
@@ -38,10 +38,10 @@ namespace LeetCode.UnitTests.Easy {
         
         [Test]
         public void Test3() {
-            var node4 = new RemoveLinkedListElements.ListNode(7);
-            var node3 = new RemoveLinkedListElements.ListNode(7, node4);
-            var node2 = new RemoveLinkedListElements.ListNode(7, node3);
-            var node1 = new RemoveLinkedListElements.ListNode(7, node2);
+            var node4 = new ListNode(7);
+            var node3 = new ListNode(7, node4);
+            var node2 = new ListNode(7, node3);
+            var node1 = new ListNode(7, node2);
            
             var sut = new RemoveLinkedListElements();
 

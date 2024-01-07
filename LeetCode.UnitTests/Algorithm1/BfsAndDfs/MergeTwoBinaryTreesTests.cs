@@ -30,7 +30,7 @@ namespace LeetCode.UnitTests.Algorithm1.BfsAndDfs {
             
             var expectedResult = new TreeNode(1);
             
-            MergeTwoBinaryTrees.MergeTrees(root1, root2).Should().Be(expectedResult);
+            MergeTwoBinaryTrees.MergeTrees(root1, root2).Should().BeEquivalentTo(expectedResult);
         }
         
         // [Test]

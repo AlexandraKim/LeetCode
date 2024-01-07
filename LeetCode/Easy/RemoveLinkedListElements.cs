@@ -1,16 +1,6 @@
 namespace LeetCode.Easy {
 	// 203. Remove Linked List Elements https://leetcode.com/problems/remove-linked-list-elements/description/
     public class RemoveLinkedListElements {
-        public class ListNode {
-        	public int val;
-        	public ListNode next;
-        	public ListNode(int val=0, ListNode next=null) {
-        		this.val = val;
-        		this.next = next;
-        	}
-        }
-
-        
         public ListNode RemoveElements(ListNode head, int val) {
 	        if (head is null) {
 		        return null;

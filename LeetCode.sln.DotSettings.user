@@ -58,6 +58,14 @@
       &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.Partition.PartitionTests&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.QuickSort.QuickSortTests&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.Merge.MergeTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.MergeSort.MergeSortTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.D.MergeSort.MergeSortTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.E.RadixSort.RadixSortTests.GetsDigit&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.E.RadixSort.RadixSortTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.E.RadixSort.RadixSortTests.TestFromFile&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::477BD7C9-7105-4C8D-95E6-AE16D54B3BB1::net6.0::Yandex.Lesson1.B.QuickSort.QuickSortTests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::ABD2A67D-F40A-4BD4-888A-547C6B2AE1B8::net7.0::LeetCode.Medium.SortList.SortListTests.TestMerge&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::ABD2A67D-F40A-4BD4-888A-547C6B2AE1B8::net7.0::LeetCode.Medium.SortList.SortListTests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;Project Location="C:\Projects\LeetCode\CodeForcesTests" Presentation="&amp;lt;CodeForcesTests&amp;gt;" /&gt;&#xD;
     &lt;And&gt;&#xD;

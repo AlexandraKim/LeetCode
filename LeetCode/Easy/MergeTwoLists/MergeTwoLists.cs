@@ -1,17 +1,5 @@
 namespace LeetCode.Easy.MergeTwoLists;
 
-public class ListNode
-{
-    public ListNode next;
-    public int val;
-
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 public class Solution
 {
     // 21. Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/description/
